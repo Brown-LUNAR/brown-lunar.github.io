@@ -85,12 +85,27 @@
             var papers = document.querySelectorAll('.papers > li');
             papers.forEach(function (paper) {
                 var paperTags = paper.dataset.tags ? paper.dataset.tags.split(',') : [];
-                if (selectedTags.length === 0 || selectedTags.some(t => paperTags.includes(t))) {
+                if (selectedTags.length === 0 || selectedTags.every(t => paperTags.includes(t))) {
                     paper.style.display = '';
                 } else {
                     paper.style.display = 'none';
                 }
             });
+            // Grey out unselected filter tags only
+            var allBtns = document.querySelectorAll('.tag-filter .tag-btn');
+            if (selectedTags.length > 0) {
+                allBtns.forEach(function (btn) {
+                    if (!btn.classList.contains('selected')) {
+                        btn.style.opacity = '0.5';
+                    } else {
+                        btn.style.opacity = '1';
+                    }
+                });
+            } else {
+                allBtns.forEach(function (btn) {
+                    btn.style.opacity = '0.5';
+                });
+            }
         }
     </script>
     <div class="tag-filter">
@@ -107,7 +122,7 @@
         {% for tag in all_tags %}
         {% set color = palette[all_tags.index(tag) % palette|length] %}
         <button class="tag-btn" id="tagbtn-{{ tag }}" data-tag="{{ tag }}" onclick="filterPapersByTag('{{ tag }}')"
-            style="background: {{ color }}; color: #000;">{{ tag }}</button>
+            style="background: {{ color }}; color: #000; opacity:0.5;">{{ tag }}</button>
         {% endfor %}
     </div>
     <ul class="papers">

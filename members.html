@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Members</title>
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+
+<body>
+    <header>
+        <img src="/assets/logo.svg" alt="Lunar Lab Logo" class="logo">
+        <nav>
+            <a href="/about.html">Home</a>
+            <a href="/members.html">Members</a>
+            <a href="/research.html">Research</a>
+            <a href="/blog/index.html">Blog</a>
+            <a href="/news.html">News/Community</a>
+        </nav>
+    </header>
+    <main>
+        
+<h1>Lab Members</h1>
+<div class="members">
+    
+    <div class="member">
+        
+        <img src="https://cs.brown.edu/people/epavlick/profile-pic-circle.gif" alt="Ellie Pavlick" class="member-pic">
+        
+        <h2>Ellie Pavlick</h2>
+        <p><strong>Principal Investigator</strong></p>
+        <p><a href="https://cs.brown.edu/people/epavlick/">Website</a></p>
+    </div>
+    
+    <div class="member">
+        
+        <img src="https://jlrussin.github.io/profile_picture2.jpg" alt="Jake Russin" class="member-pic">
+        
+        <h2>Jake Russin</h2>
+        <p><strong>Postdoc</strong></p>
+        <p><a href="https://jlrussin.github.io/">Website</a></p>
+    </div>
+    
+    <div class="member">
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Google_Gemini_logo_2025.svg/1920px-Google_Gemini_logo_2025.svg.png" alt="Gemini 2.0" class="member-pic">
+        
+        <h2>Gemini 2.0</h2>
+        <p><strong>Graduate Student</strong></p>
+        <p><a href="">Website</a></p>
+    </div>
+    
+</div>
+<script src="https://unpkg.com/draggabilly@2/dist/draggabilly.pkgd.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var main = document.querySelector('main');
+        var members = document.querySelectorAll('.member');
+        // Reverse the members NodeList for correct drag stacking order
+        Array.from(members).forEach(function (member) {
+            // Set drag bounds to main area, use logo as handle (selector)
+            var draggie = new Draggabilly(member, {
+                containment: main,
+                // handle: '.drag-handle'
+            });
+        });
+    });
+</script>
+<style>
+    .drag-handle {
+        z-index: 10;
+        background: #fff;
+        border-radius: 50%;
+        box-shadow: 0 2px 8px #c7d4e7;
+        border: 1px solid #c7d4e7;
+    }
+
+    .member {
+        transition: box-shadow 0.2s;
+    }
+
+    .member.is-dragging {
+        box-shadow: 0 8px 24px #c7d4e7;
+    }
+</style>
+
+    </main>
+    <footer>
+        <p>&copy; 2026 Lunar Lab</p>
+    </footer>
+</body>
+
+</html>
