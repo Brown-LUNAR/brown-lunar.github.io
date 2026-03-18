@@ -4,11 +4,10 @@ members:
     role: Principal Investigator
     website: https://cs.brown.edu/people/epavlick/
     picture: https://cs.brown.edu/people/epavlick/profile-pic-circle.gif
-    contact:
-      email: lunar@cs.brown.edu
   - name: Jake Russin
     role: Postdoc
     website: "https://jlrussin.github.io/"
     picture: "https://jlrussin.github.io/profile_picture2.jpg"
-    contact:
-      email:
+  - name: Gemini 2.0
+    role: Graduate Student
+    picture: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Google_Gemini_logo_2025.svg/1920px-Google_Gemini_logo_2025.svg.png"

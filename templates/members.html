@@ -10,10 +10,41 @@
         <img src="/{{ member.picture }}" alt="{{ member.name }}" class="member-pic">
         {% endif %}
         <h2>{{ member.name }}</h2>
-        <p><strong>Role:</strong> {{ member.role }}</p>
+        <p><strong>{{ member.role }}</strong></p>
         <p><a href="{{ member.website }}">Website</a></p>
-        <p><strong>Contact:</strong> {{ member.contact.email }} </p>
     </div>
     {% endfor %}
 </div>
+<script src="https://unpkg.com/draggabilly@2/dist/draggabilly.pkgd.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var main = document.querySelector('main');
+        var members = document.querySelectorAll('.member');
+        // Reverse the members NodeList for correct drag stacking order
+        Array.from(members).forEach(function (member) {
+            // Set drag bounds to main area, use logo as handle (selector)
+            var draggie = new Draggabilly(member, {
+                containment: main,
+                // handle: '.drag-handle'
+            });
+        });
+    });
+</script>
+<style>
+    .drag-handle {
+        z-index: 10;
+        background: #fff;
+        border-radius: 50%;
+        box-shadow: 0 2px 8px #c7d4e7;
+        border: 1px solid #c7d4e7;
+    }
+
+    .member {
+        transition: box-shadow 0.2s;
+    }
+
+    .member.is-dragging {
+        box-shadow: 0 8px 24px #c7d4e7;
+    }
+</style>
 {% endblock %}
