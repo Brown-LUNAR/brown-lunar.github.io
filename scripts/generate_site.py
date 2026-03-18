@@ -168,12 +168,27 @@ def render_blog_posts():
                 f.write(html)
 
 
+def render_news():
+    news_path = os.path.join(DATA_DIR, "news.yaml")
+    if os.path.exists(news_path):
+        with open(news_path) as f:
+            news = yaml.safe_load(f)
+        events = news.get("events", [])
+    else:
+        events = []
+    template = jinja_env.get_template("news.html")
+    html = template.render(events=events, title="News & Events")
+    with open(os.path.join(OUTPUT_DIR, "news.html"), "w") as f:
+        f.write(html)
+
+
 def main():
     render_about()
     render_members()
     render_research()
     render_blog_posts()
     render_blog_index()
+    render_news()
 
 
 if __name__ == "__main__":
