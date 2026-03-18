@@ -1,0 +1,646 @@
+{
+  "Beyond the imitation game: Quantifying and extrapolating the capabilities of lan": [
+    "pretraining tasks",
+    "robustness",
+    "symbolic reasoning",
+    "distributional semantics",
+    "semantic similarity"
+  ],
+  "Bloom: A 176b-parameter open-access multilingual language model": [
+    "pretraining tasks",
+    "training data attribution",
+    "language models",
+    "function words",
+    "distributional semantics"
+  ],
+  "BERT rediscovers the classical NLP pipeline": [
+    "pretraining tasks",
+    "curriculum learning",
+    "language models",
+    "distributional semantics",
+    "training data attribution"
+  ],
+  "Gemini 2.5: Pushing the frontier with advanced reasoning, multimodality, long co": [
+    "coreference",
+    "pretraining tasks",
+    "atomic edits",
+    "vision",
+    "distributional semantics"
+  ],
+  "Right for the wrong reasons: Diagnosing syntactic heuristics in natural language": [
+    "pretraining tasks",
+    "pretraining",
+    "training data attribution",
+    "transfer learning",
+    "fine-tuning"
+  ],
+  "What do you learn from context? probing for sentence structure in contextualized": [
+    "distributional semantics",
+    "multilingual",
+    "formality",
+    "semantic similarity",
+    "interpretability"
+  ],
+  "Optimizing statistical machine translation for text simplification": [
+    "function words",
+    "language models",
+    "distributional semantics",
+    "pretraining tasks",
+    "natural language inference"
+  ],
+  "Do prompt-based models really understand the meaning of their prompts?": [
+    "training data attribution",
+    "pretraining tasks",
+    "event detection",
+    "atomic edits",
+    "circuit analysis"
+  ],
+  "PPDB 2.0: Better paraphrase ranking, fine-grained entailment relations, word emb": [
+    "atomic edits",
+    "paraphrasing",
+    "training data attribution",
+    "distributional semantics",
+    "pretraining tasks"
+  ],
+  "Inherent disagreements in human textual inferences": [
+    "distributional semantics",
+    "symbolic reasoning",
+    "interpretability",
+    "natural language inference",
+    "semantic similarity"
+  ],
+  "Measuring and reducing gendered correlations in pre-trained models": [
+    "language models",
+    "natural language inference",
+    "pretraining tasks",
+    "distributional semantics",
+    "semantic similarity"
+  ],
+  "What happens to BERT embeddings during fine-tuning?": [
+    "semantic similarity",
+    "natural language inference",
+    "distributional semantics",
+    "symbolic reasoning",
+    "language models"
+  ],
+  "Mapping language models to grounded conceptual spaces": [
+    "natural language inference",
+    "distributional semantics",
+    "symbolic reasoning",
+    "semantic similarity",
+    "linguistic structure"
+  ],
+  "An empirical analysis of formality in online communication": [
+    "natural language inference",
+    "symbolic reasoning",
+    "distributional semantics",
+    "semantic similarity",
+    "interpretability"
+  ],
+  "Can language models encode perceptual structure without grounding? a case study ": [
+    "natural language inference",
+    "distributional semantics",
+    "language models",
+    "pretraining tasks",
+    "function words"
+  ],
+  "Symbols and grounding in large language models": [
+    "language models",
+    "natural language inference",
+    "training data attribution",
+    "semantic similarity",
+    "robustness"
+  ],
+  "Collecting diverse natural language inference problems for sentence representati": [
+    "natural language inference",
+    "distributional semantics",
+    "semantic similarity",
+    "symbolic reasoning",
+    "linguistic structure"
+  ],
+  "Linearly mapping from image to text space": [
+    "natural language inference",
+    "semantic similarity",
+    "distributional semantics",
+    "language models",
+    "linguistic structure"
+  ],
+  "Simple PPDB: A Paraphrase Database for Simplification": [
+    "function words",
+    "distributional semantics",
+    "atomic edits",
+    "pretraining tasks",
+    "training data attribution"
+  ],
+  "Can you tell me how to get past sesame street? sentence-level pretraining beyond": [
+    "natural language inference",
+    "semantic similarity",
+    "transfer learning",
+    "linguistic structure",
+    "deep learning"
+  ],
+  "Probing what different NLP tasks teach machines about function word comprehensio": [
+    "pretraining tasks",
+    "function words",
+    "symbolic reasoning",
+    "training data attribution",
+    "distributional semantics"
+  ],
+  "The multiberts: Bert reproductions for robustness analysis": [
+    "pretraining tasks",
+    "training data attribution",
+    "atomic edits",
+    "evaluation harness",
+    "symbolic reasoning"
+  ],
+  "Lessons from the trenches on reproducible evaluation of language models": [
+    "pretraining tasks",
+    "evaluation harness",
+    "language models",
+    "training data attribution",
+    "interpretability"
+  ],
+  "Semantic structure in deep learning": [
+    "curriculum learning",
+    "natural language inference",
+    "deep learning",
+    "semantic similarity",
+    "cognitive science"
+  ],
+  "Circuit component reuse across tasks in transformer language models": [
+    "pretraining tasks",
+    "distributional semantics",
+    "interpretability",
+    "symbolic reasoning",
+    "circuit analysis"
+  ],
+  "The language demographics of amazon mechanical turk": [
+    "natural language inference",
+    "language models",
+    "linguistic structure",
+    "curriculum learning",
+    "distributional semantics"
+  ],
+  "Interpretability and analysis in neural NLP": [
+    "natural language inference",
+    "neural networks",
+    "cognitive science",
+    "distributional semantics",
+    "curriculum learning"
+  ],
+  "Does clip bind concepts? probing compositionality in large image models": [
+    "language models",
+    "semantic similarity",
+    "pretraining tasks",
+    "linguistic structure",
+    "symbolic reasoning"
+  ],
+  "Frequency effects on syntactic rule learning in transformers": [
+    "symbolic reasoning",
+    "pretraining tasks",
+    "distributional semantics",
+    "semantic similarity",
+    "language models"
+  ],
+  "Predicting inductive biases of pre-trained models": [
+    "fine-tuning",
+    "pretraining tasks",
+    "pretraining",
+    "distributional semantics",
+    "language models"
+  ],
+  "Characterizing mechanisms for factual recall in language models": [
+    "natural language inference",
+    "language models",
+    "pretraining tasks",
+    "semantic similarity",
+    "distributional semantics"
+  ],
+  "Language models implement simple word2vec-style vector arithmetic": [
+    "distributional semantics",
+    "semantic similarity",
+    "language models",
+    "natural language inference",
+    "symbolic reasoning"
+  ],
+  "Adding Semantics to Data-Driven Paraphrasing": [
+    "semantic similarity",
+    "distributional semantics",
+    "natural language inference",
+    "function words",
+    "linguistic structure"
+  ],
+  "Robot object retrieval with contextual natural language queries": [
+    "pretraining tasks",
+    "interpretability",
+    "symbolic reasoning",
+    "distributional semantics",
+    "natural language inference"
+  ],
+  "Framenet+: Fast paraphrastic tripling of framenet": [
+    "pretraining tasks",
+    "paraphrasing",
+    "pretraining",
+    "multilingual",
+    "atomic edits"
+  ],
+  "Inducing Lexical Style Properties for Paraphrase and Genre Differentiation": [
+    "pretraining tasks",
+    "function words",
+    "distributional semantics",
+    "training data attribution",
+    "symbolic reasoning"
+  ],
+  "WikiAtomicEdits: A multilingual corpus of Wikipedia edits for modeling language ": [
+    "atomic edits",
+    "language models",
+    "natural language inference",
+    "distributional semantics",
+    "function words"
+  ],
+  "Break it down: Evidence for structural compositionality in neural networks": [
+    "pretraining tasks",
+    "distributional semantics",
+    "neural networks",
+    "symbolic reasoning",
+    "representation learning"
+  ],
+  "Most babies are little and most problems are huge: Compositional Entailment in A": [
+    "adjective-noun composition",
+    "symbolic reasoning",
+    "interpretability",
+    "semantic similarity",
+    "natural language inference"
+  ],
+  "How well do NLI models capture verb veridicality?": [
+    "natural language inference",
+    "distributional semantics",
+    "symbolic reasoning",
+    "interpretability",
+    "semantic similarity"
+  ],
+  "The Gun Violence Database: A new task and data set for NLP": [
+    "symbolic reasoning",
+    "pretraining tasks",
+    "interpretability",
+    "bias",
+    "training data attribution"
+  ],
+  "Simfluence: Modeling the influence of individual training examples by simulating": [
+    "training data attribution",
+    "pretraining tasks",
+    "interpretability",
+    "transfer learning",
+    "symbolic reasoning"
+  ],
+  "Which linguist invented the lightbulb? presupposition verification for question-": [
+    "distributional semantics",
+    "natural language inference",
+    "pretraining tasks",
+    "symbolic reasoning",
+    "function words"
+  ],
+  "Does vision-and-language pretraining improve lexical grounding?": [
+    "symbolic reasoning",
+    "natural language inference",
+    "semantic similarity",
+    "distributional semantics",
+    "linguistic structure"
+  ],
+  "Do vision-language pretrained models learn composable primitive concepts?": [
+    "pretraining tasks",
+    "pretraining",
+    "symbolic reasoning",
+    "robustness",
+    "multimodality"
+  ],
+  "Unit testing for concepts in neural networks": [
+    "symbolic reasoning",
+    "distributional semantics",
+    "pretraining tasks",
+    "representation learning",
+    "linguistic structure"
+  ],
+  "Grounding Language to Non-Markovian Tasks with No Supervision of Task Specificat": [
+    "pretraining tasks",
+    "language models",
+    "transfer learning",
+    "training data attribution",
+    "function words"
+  ],
+  "Electronic message composition support method and apparatus": [
+    "pretraining tasks",
+    "interpretability",
+    "training data attribution",
+    "atomic edits",
+    "distributional semantics"
+  ],
+  "Are two heads better than one? crowdsourced translation via a two-step collabora": [
+    "pretraining tasks",
+    "multilingual",
+    "training data attribution",
+    "transfer learning",
+    "robustness"
+  ],
+  "Bayesian preference elicitation with language models": [
+    "distributional semantics",
+    "language models",
+    "pretraining tasks",
+    "semantic similarity",
+    "natural language inference"
+  ],
+  "Grounding language to landmarks in arbitrary outdoor environments": [
+    "pretraining tasks",
+    "symbolic reasoning",
+    "curriculum learning",
+    "interpretability",
+    "linguistic structure"
+  ],
+  "Planning with state abstractions for non-markovian task specifications": [
+    "pretraining tasks",
+    "function words",
+    "symbolic reasoning",
+    "training data attribution",
+    "curriculum learning"
+  ],
+  "Talking heads: Understanding inter-layer communication in transformer language m": [
+    "natural language inference",
+    "distributional semantics",
+    "linguistic structure",
+    "semantic similarity",
+    "language models"
+  ],
+  "Looking for ELMo's friends: Sentence-level pretraining beyond language modeling": [
+    "distributional semantics",
+    "symbolic reasoning",
+    "pretraining tasks",
+    "natural language inference",
+    "function words"
+  ],
+  "How can deep neural networks inform theory in psychological science?": [
+    "neural networks",
+    "linguistic structure",
+    "deep learning",
+    "function words",
+    "distributional semantics"
+  ],
+  "AND does not mean OR: Using formal languages to study language models\u2019 represent": [
+    "natural language inference",
+    "language models",
+    "distributional semantics",
+    "function words",
+    "semantic similarity"
+  ],
+  "Are \u201cundocumented workers\u201d the same as \u201cillegal aliens\u201d? Disentangling denotatio": [
+    "pretraining tasks",
+    "atomic edits",
+    "natural language inference",
+    "training data attribution",
+    "symbolic reasoning"
+  ],
+  "Does data augmentation improve generalization in NLP?": [
+    "robustness",
+    "pretraining tasks",
+    "symbolic reasoning",
+    "interpretability",
+    "multimodality"
+  ],
+  "So-called non-subsective adjectives": [
+    "adjective-noun composition",
+    "symbolic reasoning",
+    "semantic similarity",
+    "function words",
+    "distributional semantics"
+  ],
+  "\u201cwas it \u201cstated\u201d or was it \u201cclaimed\u201d?: How linguistic bias affects generative la": [
+    "symbolic reasoning",
+    "pretraining tasks",
+    "interpretability",
+    "distributional semantics",
+    "natural language inference"
+  ],
+  "Are language models worse than humans at following prompts? It\u2019s complicated": [
+    "pretraining tasks",
+    "training data attribution",
+    "atomic edits",
+    "language models",
+    "pretraining"
+  ],
+  "Evaluation beyond task performance: Analyzing concepts in alphazero in hex": [
+    "neural networks",
+    "pretraining tasks",
+    "transfer learning",
+    "interpretability",
+    "cognitive science"
+  ],
+  "The same but different: Structural similarities and differences in multilingual ": [
+    "distributional semantics",
+    "interpretability",
+    "pretraining tasks",
+    "symbolic reasoning",
+    "function words"
+  ],
+  "Spatial language understanding for object search in partially observed city-scal": [
+    "natural language inference",
+    "distributional semantics",
+    "pretraining tasks",
+    "function words",
+    "multilingual"
+  ],
+  "Method and system for automatic formality classification": [
+    "symbolic reasoning",
+    "distributional semantics",
+    "function words",
+    "pretraining tasks",
+    "natural language inference"
+  ],
+  "TinkerBell: Cross-lingual Cold-Start Knowledge Base Construction.": [
+    "fine-tuning",
+    "pretraining tasks",
+    "pretraining",
+    "transfer learning",
+    "linguistic structure"
+  ],
+  "The promise and pitfalls of generative AI": [
+    "cognitive science",
+    "curriculum learning",
+    "neural networks",
+    "representation learning",
+    "natural language inference"
+  ],
+  "mOthello: When Do Cross-Lingual Representation Alignment and Cross-Lingual Trans": [
+    "pretraining tasks",
+    "multilingual",
+    "pretraining",
+    "natural language inference",
+    "fine-tuning"
+  ],
+  "Where, when & which concepts does AlphaZero learn? Lessons from the game of Hex": [
+    "neural networks",
+    "pretraining tasks",
+    "transfer learning",
+    "interpretability",
+    "cognitive science"
+  ],
+  "Learning to ground language to temporal logical form": [
+    "pretraining tasks",
+    "curriculum learning",
+    "function words",
+    "transfer learning",
+    "language models"
+  ],
+  "LLMs as models for analogical reasoning": [
+    "symbolic reasoning",
+    "distributional semantics",
+    "linguistic structure",
+    "semantic similarity",
+    "representation learning"
+  ],
+  "Do vision-language pretrained models learn primitive concepts": [
+    "pretraining tasks",
+    "pretraining",
+    "multimodality",
+    "distributional semantics",
+    "training data attribution"
+  ],
+  "Effectively crowdsourcing radiology report annotations": [
+    "annotation",
+    "crowdsourcing",
+    "training data attribution",
+    "pretraining tasks",
+    "lexical simplification"
+  ],
+  "Domain-Specific Paraphrase Extraction": [
+    "distributional semantics",
+    "natural language inference",
+    "function words",
+    "symbolic reasoning",
+    "pretraining tasks"
+  ],
+  "Beyond the doors of perception: Vision transformers represent relations between ": [
+    "pretraining tasks",
+    "pretraining",
+    "interpretability",
+    "training data attribution",
+    "fine-tuning"
+  ],
+  "Transformer mechanisms mimic frontostriatal gating operations when trained on hu": [
+    "pretraining tasks",
+    "neural networks",
+    "distributional semantics",
+    "semantic similarity",
+    "linguistic structure"
+  ],
+  "Sochiatrist: Signals of affect in messaging data": [
+    "function words",
+    "distributional semantics",
+    "pretraining tasks",
+    "semantic similarity",
+    "symbolic reasoning"
+  ],
+  "When does data augmentation help generalization in nlp": [
+    "robustness",
+    "pretraining tasks",
+    "symbolic reasoning",
+    "representation learning",
+    "interpretability"
+  ],
+  "Crowdsourcing for NLP": [
+    "training data attribution",
+    "pretraining tasks",
+    "multilingual",
+    "crowdsourcing",
+    "atomic edits"
+  ],
+  "Are rotten apples edible? challenging commonsense inference ability with excepti": [
+    "language models",
+    "natural language inference",
+    "distributional semantics",
+    "semantic similarity",
+    "linguistic structure"
+  ],
+  "Learning scalar adjective intensity from paraphrases": [
+    "robustness",
+    "training data attribution",
+    "pretraining tasks",
+    "language models",
+    "paraphrasing"
+  ],
+  "Tense Manages to Predict Implicative Behavior in Verbs": [
+    "adjective-noun composition",
+    "pretraining tasks",
+    "multilingual",
+    "distributional semantics",
+    "function words"
+  ],
+  "Dual process learning: Controlling use of in-context vs. in-weights strategies w": [
+    "pretraining tasks",
+    "representation learning",
+    "curriculum learning",
+    "multilingual",
+    "distributional semantics"
+  ],
+  "Affordance-based robot object retrieval": [
+    "pretraining tasks",
+    "interpretability",
+    "symbolic reasoning",
+    "distributional semantics",
+    "natural language inference"
+  ],
+  "SNAP judgments into the digital age: Reporting on food stamps varies significant": [
+    "atomic edits",
+    "pretraining tasks",
+    "curriculum learning",
+    "transfer learning",
+    "interpretability"
+  ],
+  "Method and system for automatic formality transformation": [
+    "symbolic reasoning",
+    "function words",
+    "distributional semantics",
+    "pretraining tasks",
+    "natural language inference"
+  ],
+  "Uncovering intermediate variables in transformers using circuit probing": [
+    "pretraining tasks",
+    "training data attribution",
+    "curriculum learning",
+    "symbolic reasoning",
+    "interpretability"
+  ],
+  "Identifying 1950s American Jazz Musicians: Fine-Grained IsA Extraction via Modif": [
+    "fine-tuning",
+    "pretraining tasks",
+    "multilingual",
+    "pretraining",
+    "language models"
+  ],
+  "How Do Vision-Language Models Process Conflicting Information Across Modalities?": [
+    "pretraining tasks",
+    "distributional semantics",
+    "function words",
+    "pretraining",
+    "symbolic reasoning"
+  ],
+  "Analyzing modular approaches for visual question decomposition": [
+    "neural networks",
+    "pretraining tasks",
+    "training data attribution",
+    "function words",
+    "distributional semantics"
+  ],
+  "A mechanism for solving relational tasks in transformer language models": [
+    "distributional semantics",
+    "semantic similarity",
+    "language models",
+    "natural language inference",
+    "symbolic reasoning"
+  ],
+  "Crowdsourcing for grammatical error correction": [
+    "natural language inference",
+    "distributional semantics",
+    "symbolic reasoning",
+    "interpretability",
+    "pretraining tasks"
+  ]
+}

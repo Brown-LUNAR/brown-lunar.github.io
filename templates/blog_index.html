@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Lab Blog</h1>
+<div class="blog-filter">
+    <label for="tag-filter">Filter by tag:</label>
+    <select id="tag-filter" onchange="filterPosts()">
+        <option value="all">All</option>
+        {% for tag in tags %}
+        <option value="{{ tag }}">{{ tag }}</option>
+        {% endfor %}
+    </select>
+</div>
+<div id="blog-posts">
+    {% for post in posts %}
+    <div class="blog-post" data-tags="{{ post.tags|join(',') }}">
+        <h2><a href="/{{ post.filename }}">{{ post.title }}</a></h2>
+        <p><em>{{ post.subtitle }}</em></p>
+        <p><strong>By:</strong> {{ post.author }} | <strong>Date:</strong> {{ post.date }}</p>
+        <p><strong>Tags:</strong> {{ post.tags|join(', ') }}</p>
+    </div>
+    {% endfor %}
+</div>
+<script>
+    function filterPosts() {
+        var tag = document.getElementById('tag-filter').value;
+        var posts = document.querySelectorAll('.blog-post');
+        posts.forEach(function (post) {
+            if (tag === 'all' || post.dataset.tags.includes(tag)) {
+                post.style.display = '';
+            } else {
+                post.style.display = 'none';
+            }
+        });
+    }
+</script>
+{% endblock %}

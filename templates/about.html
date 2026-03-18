@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ lab_name }}</h1>
+<p>{{ description }}</p>
+<p><strong>Location:</strong> {{ location }}</p>
+<p><strong>Contact:</strong> {{ contact.email }} | {{ contact.address }}</p>
+{% endblock %}

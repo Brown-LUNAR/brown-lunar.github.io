@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+
+<body>
+    <header>
+        <img src="/assets/logo.svg" alt="Lunar Lab Logo" class="logo">
+        <nav>
+            <a href="/about.html">Home</a>
+            <a href="/members.html">Members</a>
+            <a href="/research.html">Research</a>
+            <a href="/blog/index.html">Blog</a>
+        </nav>
+    </header>
+    <main>
+        
+<h1>Lab Blog</h1>
+<div class="blog-filter">
+    <label for="tag-filter">Filter by tag:</label>
+    <select id="tag-filter" onchange="filterPosts()">
+        <option value="all">All</option>
+        
+        <option value=" lunar"> lunar</option>
+        
+        <option value="introduction">introduction</option>
+        
+    </select>
+</div>
+<div id="blog-posts">
+    
+    <div class="blog-post" data-tags="introduction, lunar">
+        <h2><a href="/blog/2026-03-17.html">"Welcome to the Lunar Lab Blog"</a></h2>
+        <p><em>"Our first post!"</em></p>
+        <p><strong>By:</strong> "Dr. Jane Doe" | <strong>Date:</strong> 2026-03-17</p>
+        <p><strong>Tags:</strong> introduction,  lunar</p>
+    </div>
+    
+</div>
+<script>
+    function filterPosts() {
+        var tag = document.getElementById('tag-filter').value;
+        var posts = document.querySelectorAll('.blog-post');
+        posts.forEach(function (post) {
+            if (tag === 'all' || post.dataset.tags.includes(tag)) {
+                post.style.display = '';
+            } else {
+                post.style.display = 'none';
+            }
+        });
+    }
+</script>
+
+    </main>
+    <footer>
+        <p>&copy; 2026 Lunar Lab</p>
+    </footer>
+</body>
+
+</html>

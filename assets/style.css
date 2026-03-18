@@ -1,0 +1,166 @@
+
+body {
+  background: #f9f6f2;
+  color: #50587a;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #50587a;
+  color: #f9f6f2;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  height: 80px;
+}
+nav a {
+  color: #f9f6f2;
+  margin: 0 1em;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+nav a:hover {
+  color: #f3e9c7;
+}
+main {
+  padding: 2em;
+}
+footer {
+  background: #50587a;
+  color: #f9f6f2;
+  text-align: center;
+  padding: 1em;
+}
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+.member {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #f3e9c7;
+  padding: 1em;
+  width: 250px;
+  text-align: center;
+  border: 1px solid #c7d4e7;
+}
+.member-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1em;
+  border: 2px solid #d6cfc2;
+}
+.papers {
+  list-style: none;
+  padding: 0;
+}
+.papers li {
+  background: #fff;
+  margin-bottom: 1em;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px #f3e9c7;
+  border: 1px solid #c7d4e7;
+}
+.blog-post {
+  background: #fff;
+  margin-bottom: 1em;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px #f3e9c7;
+  border: 1px solid #c7d4e7;
+}
+.blog-filter {
+  margin-bottom: 2em;
+}
+ 
+body {
+  background: #f9f6f2;
+  color: #50587a;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #50587a;
+  color: #f9f6f2;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  height: 80px;
+}
+nav a {
+  color: #f9f6f2;
+  margin: 0 1em;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+nav a:hover {
+  color: #f3e9c7;
+}
+main {
+  padding: 2em;
+}
+footer {
+  background: #50587a;
+  color: #f9f6f2;
+  text-align: center;
+  padding: 1em;
+}
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+.member {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #f3e9c7;
+  padding: 1em;
+  width: 250px;
+  text-align: center;
+  border: 1px solid #c7d4e7;
+}
+.member-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1em;
+  border: 2px solid #d6cfc2;
+}
+.papers {
+  list-style: none;
+  padding: 0;
+}
+.papers li {
+  background: #fff;
+  margin-bottom: 1em;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px #f3e9c7;
+  border: 1px solid #c7d4e7;
+}
+.blog-post {
+  background: #fff;
+  margin-bottom: 1em;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px #f3e9c7;
+  border: 1px solid #c7d4e7;
+}
+.blog-filter {
+  margin-bottom: 2em;
+}

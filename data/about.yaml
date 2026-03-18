@@ -1,0 +1,8 @@
+# About page YAML
+lab_name: Language Understanding and Representation Lab
+mission:
+description: |
+location: "Brown University"
+contact:
+  email: lunar@cs.brown.edu
+  address: "123 Moon St, Providence, RI"
