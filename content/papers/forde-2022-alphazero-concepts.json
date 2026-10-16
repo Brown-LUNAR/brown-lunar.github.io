@@ -1,0 +1,15 @@
+{
+  "id": "forde-2022-alphazero-concepts",
+  "title": "Where, When & Which Concepts Does AlphaZero Learn? Lessons from the Game of Hex",
+  "authors": [
+    "Jessica Zosa Forde",
+    "Charles Lovering",
+    "George Konidaris",
+    "Ellie Pavlick",
+    "Michael L. Littman"
+  ],
+  "year": 2022,
+  "date": "2022-02-28",
+  "venue": "AAAI Reinforcement Learning in Games Workshop 2022",
+  "paperUrl": "https://cs.brown.edu/people/gdk/pubs/concepts_hex_aaaiws.pdf"
+}

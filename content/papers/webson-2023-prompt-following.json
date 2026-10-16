@@ -1,0 +1,14 @@
+{
+  "id": "webson-2023-prompt-following",
+  "title": "Are Language Models Worse than Humans at Following Prompts? It's Complicated",
+  "authors": [
+    "Albert Webson",
+    "Alyssa Loo",
+    "Qinan Yu",
+    "Ellie Pavlick"
+  ],
+  "year": 2023,
+  "date": "2023-12-06",
+  "venue": "Findings of EMNLP 2023",
+  "paperUrl": "https://arxiv.org/pdf/2301.07085.pdf"
+}

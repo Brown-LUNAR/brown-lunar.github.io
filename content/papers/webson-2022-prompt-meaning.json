@@ -1,0 +1,12 @@
+{
+  "id": "webson-2022-prompt-meaning",
+  "title": "Do Prompt-Based Models Really Understand the Meaning of Their Prompts?",
+  "authors": [
+    "Albert Webson",
+    "Ellie Pavlick"
+  ],
+  "year": 2022,
+  "date": "2022-07-10",
+  "venue": "NAACL 2022",
+  "paperUrl": "https://arxiv.org/pdf/2109.01247.pdf"
+}

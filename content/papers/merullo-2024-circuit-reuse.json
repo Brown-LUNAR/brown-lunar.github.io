@@ -1,0 +1,13 @@
+{
+  "id": "merullo-2024-circuit-reuse",
+  "title": "Circuit Component Reuse Across Tasks in Transformer Language Models",
+  "authors": [
+    "Jack Merullo",
+    "Carsten Eickhoff",
+    "Ellie Pavlick"
+  ],
+  "year": 2024,
+  "date": "2024-05-07",
+  "venue": "ICLR 2024",
+  "paperUrl": "https://arxiv.org/abs/2310.08744"
+}

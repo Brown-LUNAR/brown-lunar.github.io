@@ -1,0 +1,13 @@
+{
+  "id": "merullo-2024-word2vec-arithmetic",
+  "title": "Language Models Implement Simple Word2Vec-style Vector Arithmetic",
+  "authors": [
+    "Jack Merullo",
+    "Carsten Eickhoff",
+    "Ellie Pavlick"
+  ],
+  "year": 2024,
+  "date": "2024-06-16",
+  "venue": "NAACL 2024",
+  "paperUrl": "https://aclanthology.org/2024.naacl-long.281/"
+}

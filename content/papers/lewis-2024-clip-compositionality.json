@@ -1,0 +1,17 @@
+{
+  "id": "lewis-2024-clip-compositionality",
+  "title": "Does CLIP Bind Concepts? Probing Compositionality in Large Image Models",
+  "authors": [
+    "Martha Lewis",
+    "Nihal V. Nayak",
+    "Peilin Yu",
+    "Qinan Yu",
+    "Jack Merullo",
+    "Stephen H. Bach",
+    "Ellie Pavlick"
+  ],
+  "year": 2024,
+  "date": "2024-03-17",
+  "venue": "Findings of EACL 2024",
+  "paperUrl": "https://aclanthology.org/2024.findings-eacl.101/"
+}

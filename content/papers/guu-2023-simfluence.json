@@ -1,0 +1,16 @@
+{
+  "id": "guu-2023-simfluence",
+  "title": "Simfluence: Modeling the Influence of Individual Training Examples by Simulating Training Runs",
+  "authors": [
+    "Kelvin Guu",
+    "Albert Webson",
+    "Ellie Pavlick",
+    "Lucas Dixon",
+    "Ian Tenney",
+    "Tolga Bolukbasi"
+  ],
+  "year": 2023,
+  "date": "2023-03-14",
+  "venue": "Preprint",
+  "paperUrl": "https://arxiv.org/pdf/2303.08114.pdf"
+}

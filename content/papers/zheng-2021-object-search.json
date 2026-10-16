@@ -1,0 +1,15 @@
+{
+  "id": "zheng-2021-object-search",
+  "title": "Spatial Language Understanding for Object Search in Partially Observed City-scale Environments",
+  "authors": [
+    "Kaiyu Zheng",
+    "Deniz Bayazit",
+    "Rebecca Mathew",
+    "Ellie Pavlick",
+    "Stefanie Tellex"
+  ],
+  "year": 2021,
+  "date": "2021-08-08",
+  "venue": "RO-MAN 2021",
+  "paperUrl": "https://doi.org/10.1109/RO-MAN50785.2021.9515426"
+}

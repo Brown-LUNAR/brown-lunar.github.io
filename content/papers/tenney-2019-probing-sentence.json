@@ -1,0 +1,21 @@
+{
+  "id": "tenney-2019-probing-sentence",
+  "title": "What Do You Learn from Context? Probing for Sentence Structure in Contextualized Word Representations",
+  "authors": [
+    "Ian Tenney",
+    "Patrick Xia",
+    "Berlin Chen",
+    "Alex Wang",
+    "Adam Poliak",
+    "R. Thomas McCoy",
+    "Najoung Kim",
+    "Benjamin Van Durme",
+    "Samuel R. Bowman",
+    "Dipanjan Das",
+    "Ellie Pavlick"
+  ],
+  "year": 2019,
+  "date": "2019-05-06",
+  "venue": "ICLR 2019",
+  "paperUrl": "https://openreview.net/pdf?id=SJzSgnRcKX"
+}

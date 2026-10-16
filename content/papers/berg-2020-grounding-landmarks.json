@@ -1,0 +1,16 @@
+{
+  "id": "berg-2020-grounding-landmarks",
+  "title": "Grounding Language to Landmarks in Arbitrary Outdoor Environments",
+  "authors": [
+    "Matthew Berg",
+    "Deniz Bayazit",
+    "Rebecca Mathew",
+    "Ariel Rotter-Aboyoun",
+    "Ellie Pavlick",
+    "Stefanie Tellex"
+  ],
+  "year": 2020,
+  "date": "2020-05-31",
+  "venue": "ICRA 2020",
+  "paperUrl": "https://ieeexplore.ieee.org/document/9197068"
+}

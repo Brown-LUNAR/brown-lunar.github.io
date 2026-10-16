@@ -1,0 +1,9 @@
+{
+  "id": "albert-webson",
+  "name": "Albert Webson",
+  "role": "PhD",
+  "dissertation": "Tuning Language Models to Follow Instructions",
+  "nextPosition": "Anthropic",
+  "url": "https://representations.ai/",
+  "order": 6
+}

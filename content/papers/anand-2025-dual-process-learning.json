@@ -1,0 +1,14 @@
+{
+  "id": "anand-2025-dual-process-learning",
+  "title": "Dual Process Learning: Controlling Use of In-Context vs. In-Weights Strategies with Weight Forgetting",
+  "authors": [
+    "Suraj Anand",
+    "Michael A. Lepori",
+    "Jack Merullo",
+    "Ellie Pavlick"
+  ],
+  "year": 2025,
+  "date": "2025-04-24",
+  "venue": "ICLR 2025",
+  "paperUrl": "https://arxiv.org/abs/2406.00053"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "tenney-2019-bert-nlp-pipeline",
+  "title": "BERT Rediscovers the Classical NLP Pipeline",
+  "authors": [
+    "Ian Tenney",
+    "Dipanjan Das",
+    "Ellie Pavlick"
+  ],
+  "year": 2019,
+  "date": "2019-07-28",
+  "venue": "ACL 2019",
+  "paperUrl": "https://aclanthology.org/P19-1452/"
+}

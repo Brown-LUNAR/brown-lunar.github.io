@@ -1,0 +1,13 @@
+{
+  "id": "wang-2026-missing-modalities",
+  "title": "Handling and Interpreting Missing Modalities in Patient Clinical Trajectories via Autoregressive Sequence Modeling",
+  "authors": [
+    "Andrew Wang",
+    "Ellie Pavlick",
+    "Ritambhara Singh"
+  ],
+  "year": 2026,
+  "date": "2026-04-20",
+  "venue": "Preprint",
+  "paperUrl": "https://arxiv.org/abs/2604.18753"
+}

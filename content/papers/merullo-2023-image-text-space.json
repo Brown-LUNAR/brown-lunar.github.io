@@ -1,0 +1,14 @@
+{
+  "id": "merullo-2023-image-text-space",
+  "title": "Linearly Mapping from Image to Text Space",
+  "authors": [
+    "Jack Merullo",
+    "Louis Castricato",
+    "Carsten Eickhoff",
+    "Ellie Pavlick"
+  ],
+  "year": 2023,
+  "date": "2023-05-01",
+  "venue": "ICLR 2023",
+  "paperUrl": "https://arxiv.org/abs/2209.15162"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "merchant-2020-bert-finetuning",
+  "title": "What Happens To BERT Embeddings During Fine-tuning?",
+  "authors": [
+    "Amil Merchant",
+    "Elahe Rahimtoroghi",
+    "Ellie Pavlick",
+    "Ian Tenney"
+  ],
+  "year": 2020,
+  "date": "2020-11-20",
+  "venue": "EMNLP BlackboxNLP Workshop 2020",
+  "paperUrl": "https://aclanthology.org/2020.blackboxnlp-1.4/"
+}

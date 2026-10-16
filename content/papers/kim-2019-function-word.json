@@ -1,0 +1,22 @@
+{
+  "id": "kim-2019-function-word",
+  "title": "Probing What Different NLP Tasks Teach Machines about Function Word Comprehension",
+  "authors": [
+    "Najoung Kim",
+    "Roma Patel",
+    "Adam Poliak",
+    "Alex Wang",
+    "Patrick Xia",
+    "R. Thomas McCoy",
+    "Ian Tenney",
+    "Alexis Ross",
+    "Tal Linzen",
+    "Benjamin Van Durme",
+    "Samuel R. Bowman",
+    "Ellie Pavlick"
+  ],
+  "year": 2019,
+  "date": "2019-06-06",
+  "venue": "*SEM 2019",
+  "paperUrl": "https://aclanthology.org/S19-1026/"
+}

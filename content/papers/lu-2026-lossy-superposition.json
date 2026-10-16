@@ -1,0 +1,16 @@
+{
+  "id": "lu-2026-lossy-superposition",
+  "title": "Lossy Superposition: Predicting Compositional Errors Without Seeing Inputs",
+  "authors": [
+    "Jennifer Meng Lu",
+    "Ruochen Zhang",
+    "Isabelle Lee",
+    "David Alvarez-Melis",
+    "Ellie Pavlick",
+    "Naomi Saphra"
+  ],
+  "year": 2026,
+  "date": "2026-07-10",
+  "venue": "ICML Mechanistic Interpretability Workshop 2026",
+  "paperUrl": "https://openreview.net/forum?id=3xaXcewk4j"
+}

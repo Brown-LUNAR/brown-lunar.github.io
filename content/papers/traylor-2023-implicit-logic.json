@@ -1,0 +1,13 @@
+{
+  "id": "traylor-2023-implicit-logic",
+  "title": "Can Neural Networks Learn Implicit Logic from Physical Reasoning?",
+  "authors": [
+    "Aaron Traylor",
+    "Roman Feiman",
+    "Ellie Pavlick"
+  ],
+  "year": 2023,
+  "date": "2023-05-01",
+  "venue": "ICLR 2023",
+  "paperUrl": "https://openreview.net/pdf?id=HVoJCRLByVk"
+}

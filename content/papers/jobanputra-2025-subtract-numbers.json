@@ -1,0 +1,20 @@
+{
+  "id": "jobanputra-2025-subtract-numbers",
+  "title": "Can LLMs Subtract Numbers?",
+  "authors": [
+    "Mayank Jobanputra",
+    "Nils Philipp Walter",
+    "Maitrey Mehta",
+    "Blerta Veseli",
+    "Evan Parker Kelly Chapple",
+    "Yifan Wang",
+    "Sneha Chetani",
+    "Ellie Pavlick",
+    "Antonio Vergari",
+    "Vera Demberg"
+  ],
+  "year": 2025,
+  "date": "2025-11-09",
+  "venue": "EMNLP MathNLP Workshop 2025",
+  "paperUrl": "https://arxiv.org/abs/2511.02795"
+}

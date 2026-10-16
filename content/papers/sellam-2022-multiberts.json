@@ -1,0 +1,22 @@
+{
+  "id": "sellam-2022-multiberts",
+  "title": "The MultiBERTs: BERT Reproductions for Robustness Analysis",
+  "authors": [
+    "Thibault Sellam",
+    "Steve Yadlowsky",
+    "Ian Tenney",
+    "Jason Wei",
+    "Naomi Saphra",
+    "Alexander D'Amour",
+    "Tal Linzen",
+    "Jasmijn Bastings",
+    "Iulia Turc",
+    "Jacob Eisenstein",
+    "Dipanjan Das",
+    "Ellie Pavlick"
+  ],
+  "year": 2022,
+  "date": "2022-04-25",
+  "venue": "ICLR 2022",
+  "paperUrl": "https://openreview.net/pdf?id=K0E_F0gFDgA"
+}

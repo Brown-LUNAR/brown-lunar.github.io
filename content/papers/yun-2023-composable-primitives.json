@@ -1,0 +1,14 @@
+{
+  "id": "yun-2023-composable-primitives",
+  "title": "Do Vision-Language Pretrained Models Learn Composable Primitive Concepts?",
+  "authors": [
+    "Tian Yun",
+    "Usha Bhalla",
+    "Ellie Pavlick",
+    "Chen Sun"
+  ],
+  "year": 2023,
+  "date": "2023-05",
+  "venue": "TMLR",
+  "paperUrl": "https://arxiv.org/abs/2203.17271"
+}

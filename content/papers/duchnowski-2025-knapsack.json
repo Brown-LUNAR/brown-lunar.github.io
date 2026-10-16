@@ -1,0 +1,13 @@
+{
+  "id": "duchnowski-2025-knapsack",
+  "title": "A Knapsack by Any Other Name: Presentation Impacts LLM Performance on NP-hard Problems",
+  "authors": [
+    "Alex Duchnowski",
+    "Ellie Pavlick",
+    "Alexander Koller"
+  ],
+  "year": 2025,
+  "date": "2025-11-04",
+  "venue": "Findings of EMNLP 2025",
+  "paperUrl": "https://aclanthology.org/2025.findings-emnlp.352/"
+}

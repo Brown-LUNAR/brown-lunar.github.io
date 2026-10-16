@@ -1,0 +1,14 @@
+{
+  "id": "chen-2025-model-stitching",
+  "title": "Transferring Linear Features Across Language Models With Model Stitching",
+  "authors": [
+    "Alan Chen",
+    "Jack Merullo",
+    "Alessandro Stolfo",
+    "Ellie Pavlick"
+  ],
+  "year": 2025,
+  "date": "2025-12-02",
+  "venue": "NeurIPS 2025",
+  "paperUrl": "https://arxiv.org/abs/2506.06609"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "zhang-2023-inductive-biases",
+  "title": "Instilling Inductive Biases with Subnetworks",
+  "authors": [
+    "Enyan Zhang",
+    "Michael A. Lepori",
+    "Ellie Pavlick"
+  ],
+  "year": 2023,
+  "date": "2023-10-17",
+  "venue": "Preprint",
+  "paperUrl": "https://arxiv.org/abs/2310.10899"
+}

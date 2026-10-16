@@ -1,0 +1,17 @@
+{
+  "id": "oh-2022-hierarchical-planning",
+  "title": "Hierarchical Planning with State Abstractions for Temporal Task Specifications",
+  "authors": [
+    "Yoonseon Oh",
+    "Roma Patel",
+    "Thao Nguyen",
+    "Baichuan Huang",
+    "Matthew Berg",
+    "Ellie Pavlick",
+    "Stefanie Tellex"
+  ],
+  "year": 2022,
+  "date": "2022-06-04",
+  "venue": "Autonomous Robots",
+  "paperUrl": "https://doi.org/10.1007/s10514-022-10043-y"
+}

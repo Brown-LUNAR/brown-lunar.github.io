@@ -1,0 +1,13 @@
+{
+  "id": "merullo-2024-talking-heads",
+  "title": "Talking Heads: Understanding Inter-Layer Communication in Transformer Language Models",
+  "authors": [
+    "Jack Merullo",
+    "Carsten Eickhoff",
+    "Ellie Pavlick"
+  ],
+  "year": 2024,
+  "date": "2024-12-10",
+  "venue": "NeurIPS 2024",
+  "paperUrl": "https://arxiv.org/abs/2406.09519"
+}

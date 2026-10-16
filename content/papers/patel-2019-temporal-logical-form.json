@@ -1,0 +1,13 @@
+{
+  "id": "patel-2019-temporal-logical-form",
+  "title": "Learning to Ground Language to Temporal Logical Form",
+  "authors": [
+    "Roma Patel",
+    "Stefanie Tellex",
+    "Ellie Pavlick"
+  ],
+  "year": 2019,
+  "date": "2019-06-06",
+  "venue": "NAACL SpLU-RoboNLP Workshop 2019",
+  "paperUrl": "https://cs.brown.edu/people/rpatel59/papers/ltl-sem-parse.pdf"
+}

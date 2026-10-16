@@ -1,0 +1,13 @@
+{
+  "id": "jha-2020-data-augmentation",
+  "title": "Does Data Augmentation Improve Generalization in NLP?",
+  "authors": [
+    "Rohan Jha",
+    "Charles Lovering",
+    "Ellie Pavlick"
+  ],
+  "year": 2020,
+  "date": "2020-04-30",
+  "venue": "Preprint",
+  "paperUrl": "https://arxiv.org/abs/2004.15012"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "webster-2020-gendered-correlations",
+  "title": "Measuring and Reducing Gendered Correlations in Pre-trained Models",
+  "authors": [
+    "Kellie Webster",
+    "Xuezhi Wang",
+    "Ian Tenney",
+    "Alex Beutel",
+    "Emily Pitler",
+    "Ellie Pavlick",
+    "Jilin Chen",
+    "Ed Chi",
+    "Slav Petrov"
+  ],
+  "year": 2020,
+  "date": "2020-10-12",
+  "venue": "Preprint",
+  "paperUrl": "https://arxiv.org/pdf/2010.06032.pdf"
+}

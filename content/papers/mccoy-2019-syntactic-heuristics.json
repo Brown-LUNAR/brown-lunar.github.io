@@ -1,0 +1,13 @@
+{
+  "id": "mccoy-2019-syntactic-heuristics",
+  "title": "Right for the Wrong Reasons: Diagnosing Syntactic Heuristics in Natural Language Inference",
+  "authors": [
+    "R. Thomas McCoy",
+    "Ellie Pavlick",
+    "Tal Linzen"
+  ],
+  "year": 2019,
+  "date": "2019-07-28",
+  "venue": "ACL 2019",
+  "paperUrl": "https://aclanthology.org/P19-1334/"
+}

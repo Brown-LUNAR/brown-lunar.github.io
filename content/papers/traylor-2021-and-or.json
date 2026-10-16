@@ -1,0 +1,13 @@
+{
+  "id": "traylor-2021-and-or",
+  "title": "AND Does Not Mean OR: Using Formal Languages to Study Language Models' Representations",
+  "authors": [
+    "Aaron Traylor",
+    "Roman Feiman",
+    "Ellie Pavlick"
+  ],
+  "year": 2021,
+  "date": "2021-08-01",
+  "venue": "ACL 2021",
+  "paperUrl": "https://aclanthology.org/2021.acl-short.21.pdf"
+}

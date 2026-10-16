@@ -1,0 +1,12 @@
+{
+  "id": "zhang-2025-synthetic-data",
+  "title": "Does Training on Synthetic Data Make Models Less Robust?",
+  "authors": [
+    "Lingze Zhang",
+    "Ellie Pavlick"
+  ],
+  "year": 2025,
+  "date": "2025-05-04",
+  "venue": "NAACL Insights from Negative Results in NLP Workshop 2025",
+  "paperUrl": "https://aclanthology.org/2025.insights-1.8/"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "yang-2026-shared-lexical-representations",
+  "title": "Shared Lexical Task Representations Explain Behavioral Variability In LLMs",
+  "authors": [
+    "Zhuonan Yang",
+    "Jacob Xiaochen Li",
+    "Francisco Piedrahita Velez",
+    "Eric Todd",
+    "David Bau",
+    "Michael L. Littman",
+    "Stephen H. Bach",
+    "Ellie Pavlick"
+  ],
+  "year": 2026,
+  "date": "2026-07-06",
+  "venue": "ICML 2026",
+  "paperUrl": "https://arxiv.org/abs/2604.22027"
+}

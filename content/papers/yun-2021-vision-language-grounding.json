@@ -1,0 +1,13 @@
+{
+  "id": "yun-2021-vision-language-grounding",
+  "title": "Does Vision-and-Language Pretraining Improve Lexical Grounding?",
+  "authors": [
+    "Tian Yun",
+    "Chen Sun",
+    "Ellie Pavlick"
+  ],
+  "year": 2021,
+  "date": "2021-11-07",
+  "venue": "Findings of EMNLP 2021",
+  "paperUrl": "https://aclanthology.org/2021.findings-emnlp.370/"
+}

@@ -1,0 +1,491 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #323C50;
+  --logo-outer-circle: #F9E4C8;
+
+  --logo-text: #F9E4C8;
+}
+
+[data-theme = "dark"] {
+  --background: #232121;
+  --foreground: #F9E4C8;
+  --logo-outer-circle: #323C50;
+  --logo-text: #323C50;
+}
+
+html {
+  font-family: var(--font-geist-sans), sans-serif;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+/* Element defaults live in @layer base so Tailwind's utilities (text-[..], etc.)
+   can override them. Unlayered element rules beat every layered utility no
+   matter the specificity, which silently breaks responsive type. */
+@layer base {
+  h1 {
+    font-size: clamp(32px, 5vw, 60px);
+    font-weight: 400;
+  }
+
+  h2 {
+    font-size: clamp(26px, 4vw, 42px);
+    font-weight: 400;
+  }
+
+  h3 {
+    font-size: clamp(20px, 2.6vw, 32px);
+    font-weight: 400;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: clamp(16px, 1.3vw, 19px);
+  }
+
+  a {
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.menu{
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(14px, 2vw, 40px);
+  font-size: clamp(15px, 1.6vw, 21px);
+  font-weight: 400;
+  color: var(--foreground);
+  overflow-wrap: break-word;
+}
+
+.page{
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  padding: clamp(20px, 3vw, 46px) clamp(20px, 6vw, 90px) 80px;
+  overflow-x: hidden;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: clamp(16px, 3vw, 40px) clamp(16px, 4vw, 60px);
+  border-bottom: 1px solid #ddd;
+  background-color: var(--background);
+  max-width: 1728px;
+  margin: 0 auto;
+}
+
+.header-inner{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.header-brand{
+  display: flex;
+  align-items: center;
+  gap: clamp(10px, 1.2vw, 16px);
+  min-width: 0;
+}
+
+.header-title{
+  white-space: nowrap;
+  line-height: 1;
+  /* Tracks .menu, a notch larger so the lab name leads the header. */
+  font-size: clamp(16px, 1.75vw, 23px);
+  font-weight: 400;
+  color: var(--foreground);
+}
+
+.header-actions{
+  display: flex;
+  align-items: center;
+  gap: clamp(16px, 2.5vw, 36px);
+}
+
+.logo-mark{
+  width: clamp(44px, 6vw, 82px);
+  height: auto;
+  flex-shrink: 0;
+}
+
+/* ── Mobile nav ───────────────────────────────────────────────────────── */
+
+.nav-mobile{
+  display: none;
+  position: relative;
+}
+
+.nav-mobile-toggle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+  color: var(--foreground);
+}
+
+.nav-mobile-panel{
+  position: absolute;
+  top: calc(100% + 12px);
+  right: 0;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0;
+  border: 1px solid var(--foreground);
+  border-radius: 16px;
+  background-color: var(--background);
+  box-shadow: 0 12px 28px rgb(0 0 0 / 0.16);
+  z-index: 1100;
+}
+
+/* `hidden` alone loses to the panel's `display: flex`. */
+.nav-mobile-panel[hidden]{
+  display: none;
+}
+
+.nav-mobile-link{
+  padding: 12px 20px;
+  font-size: 18px;
+  color: var(--foreground);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.nav-mobile-link:hover,
+.nav-mobile-link:focus-visible{
+  background-color: color-mix(in srgb, var(--foreground) 10%, transparent);
+}
+
+/* Below this the one-line title would shrink past readability, so let it wrap;
+   the nav row is swapped for the hamburger. */
+@media (max-width: 680px) {
+  /* One row: brand takes the slack, controls stay pinned right. */
+  .header-inner{
+    flex-wrap: nowrap;
+  }
+
+  .header-brand{
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .header-title{
+    white-space: normal;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .header-actions{
+    flex-shrink: 0;
+  }
+
+  .nav-desktop{
+    display: none;
+  }
+
+  .nav-mobile{
+    display: block;
+  }
+}
+
+.header a {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  overflow-wrap: inherit;
+  text-decoration: none;
+}
+
+.footer{
+  position: relative;
+  padding: clamp(24px, 5vw, 60px) clamp(16px, 6vw, 80px);
+  border-top: 1px solid #ddd;
+  margin-top: 80px;
+
+  background-image: var(--footer-bg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer-row{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+@media (max-width: 768px) {
+  .footer-row{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  /* The artwork is a wide strip (~6:1). `cover` blows it up on a narrow footer
+     and the astronaut lands on top of the text, so pin it to the bottom at full
+     width and reserve room for it below the content. */
+  .footer{
+    background-size: 100% auto;
+    background-position: center bottom;
+    padding-bottom: calc(17.3vw + 24px);
+  }
+}
+
+.logo-outer-circle{
+  fill: var(--logo-outer-circle);
+}
+
+.logo-text{
+  fill: var(--logo-text)
+}
+
+.logo-inner-circle{
+  fill: var(--foreground);
+}
+
+/* Links inside body copy. The base `a` rule pins 14px, so take the paragraph's size. */
+.inline-link{
+  font-size: inherit;
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.hero-dot{
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.hero-dot:focus-visible{
+  outline: 2px solid #F9E4C8;
+  outline-offset: 2px;
+}
+
+/* ── People page ──────────────────────────────────────────────────────────
+   Circular portrait on top, text beneath, three across. */
+
+.people-lead{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 56px;
+}
+
+.people-lead .person{
+  max-width: 420px;
+}
+
+.people-grid{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 56px 32px;
+}
+
+.person{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-width: 0;
+  color: var(--foreground);
+}
+
+a.person-link{
+  text-decoration: none;
+  color: var(--foreground);
+  font-size: inherit;
+}
+
+a.person-link:hover .person-name,
+a.person-link:focus-visible .person-name{
+  text-decoration: underline;
+}
+
+.person-photo{
+  width: clamp(130px, 15vw, 190px);
+  aspect-ratio: 1 / 1;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  margin-bottom: 18px;
+}
+
+/* Stand-in for people who have not sent a photo yet. */
+.person-photo-placeholder{
+  background-color: color-mix(in srgb, var(--foreground) 14%, var(--background));
+}
+
+.person-name{
+  font-size: clamp(20px, 2vw, 24px);
+  line-height: 1.2;
+  margin-bottom: 6px;
+  overflow-wrap: break-word;
+}
+
+.person-role{
+  font-size: clamp(15px, 1.4vw, 17px);
+  line-height: 1.35;
+  margin-bottom: 10px;
+  overflow-wrap: break-word;
+}
+
+.person-description{
+  font-size: clamp(14px, 1.3vw, 16px);
+  line-height: 1.5;
+  overflow-wrap: break-word;
+  text-wrap: pretty;
+}
+
+/* ── Alumni ───────────────────────────────────────────────────────────── */
+
+.alumni-grid{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px 32px;
+  padding-top: 32px;
+}
+
+.alumnus{ min-width: 0; }
+
+.alumnus-name{
+  font-size: clamp(19px, 1.9vw, 24px);
+  line-height: 1.25;
+  color: var(--foreground);
+  margin-bottom: 6px;
+  overflow-wrap: break-word;
+}
+
+.alumnus-meta{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: clamp(15px, 1.4vw, 18px);
+  color: var(--foreground);
+}
+
+.alumnus-arrow{
+  font-size: 20px;
+  line-height: 1;
+}
+
+.alumnus-dissertation{
+  font-style: italic;
+  font-size: clamp(14px, 1.2vw, 16px);
+  line-height: 1.35;
+  color: var(--foreground);
+  margin-bottom: 6px;
+}
+
+.alumni-note{
+  margin-top: 48px;
+}
+
+@media (max-width: 900px) {
+  .people-grid{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 44px 28px;
+  }
+
+  .alumni-grid{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .people-grid{
+    grid-template-columns: minmax(0, 1fr);
+    gap: 40px;
+  }
+
+  .alumni-grid{
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .people-lead{
+    padding-bottom: 40px;
+  }
+}
+
+/* ── Publications list ────────────────────────────────────────────────── */
+
+.paper-year-group{
+  margin-bottom: 26px;
+}
+
+.paper-year{
+  margin: 0 0 4px;
+  font-size: clamp(22px, 2vw, 28px);
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--foreground);
+}
+
+/* One stacked block per paper: title, authors, venue. No rules between rows. */
+.paper-row{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 20px 0;
+}
+
+.paper-title{
+  margin: 0;
+  font-size: clamp(17px, 1.35vw, 20px);
+  font-weight: 400;
+  line-height: 1.3;
+  color: var(--foreground);
+}
+
+/* The title text is the link: the hit area is the words, not the whole row. */
+.paper-title a{
+  display: inline;
+  /* The base `a` rule pins 14px; the title link should read at the title's size. */
+  font-size: inherit;
+  line-height: inherit;
+  color: var(--foreground);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+.paper-title a:hover,
+.paper-title a:focus-visible{
+  text-decoration-thickness: 2px;
+}
+
+.paper-authors{
+  font-size: clamp(15px, 1.2vw, 17px);
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--foreground);
+}
+
+.paper-meta{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--foreground);
+}

@@ -1,0 +1,14 @@
+{
+  "id": "merullo-2022-grounded-affordances",
+  "title": "Pretraining on Interactions for Learning Grounded Affordance Representations",
+  "authors": [
+    "Jack Merullo",
+    "Dylan Ebert",
+    "Carsten Eickhoff",
+    "Ellie Pavlick"
+  ],
+  "year": 2022,
+  "date": "2022-07-14",
+  "venue": "*SEM 2022",
+  "paperUrl": "https://aclanthology.org/2022.starsem-1.23/"
+}

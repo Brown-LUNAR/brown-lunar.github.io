@@ -1,0 +1,13 @@
+{
+  "id": "patel-2020-non-markovian-grounding",
+  "title": "Grounding Language to Non-Markovian Tasks with No Supervision of Task Specifications",
+  "authors": [
+    "Roma Patel",
+    "Ellie Pavlick",
+    "Stefanie Tellex"
+  ],
+  "year": 2020,
+  "date": "2020-07-12",
+  "venue": "RSS 2020",
+  "paperUrl": "https://www.roboticsproceedings.org/rss16/p016.pdf"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "lovering-2022-alphazero-hex",
+  "title": "Evaluation beyond Task Performance: Analyzing Concepts in AlphaZero in Hex",
+  "authors": [
+    "Charles Lovering",
+    "Jessica Zosa Forde",
+    "George Konidaris",
+    "Ellie Pavlick",
+    "Michael L. Littman"
+  ],
+  "year": 2022,
+  "date": "2022-11-28",
+  "venue": "NeurIPS 2022",
+  "paperUrl": "https://proceedings.neurips.cc/paper_files/paper/2022/file/a705747417d32ebf1916169e1a442274-Paper-Conference.pdf"
+}

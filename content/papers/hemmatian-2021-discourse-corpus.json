@@ -1,0 +1,20 @@
+{
+  "id": "hemmatian-2021-discourse-corpus",
+  "title": "A Novel Corpus of Discourse Structure in Humans and Computers",
+  "authors": [
+    "Babak Hemmatian",
+    "Sheridan Feucht",
+    "Rachel Avram",
+    "Alexander Wey",
+    "Muskaan Garg",
+    "Kate Spitalnic",
+    "Carsten Eickhoff",
+    "Ellie Pavlick",
+    "Björn Sandstede",
+    "Steven Sloman"
+  ],
+  "year": 2021,
+  "date": "2021-11-10",
+  "venue": "EMNLP CODI Workshop 2021",
+  "paperUrl": "https://arxiv.org/abs/2111.05940"
+}

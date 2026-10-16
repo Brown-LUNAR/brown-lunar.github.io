@@ -1,0 +1,14 @@
+{
+  "id": "wei-2021-syntactic-rule",
+  "title": "Frequency Effects on Syntactic Rule Learning in Transformers",
+  "authors": [
+    "Jason Wei",
+    "Dan Garrette",
+    "Tal Linzen",
+    "Ellie Pavlick"
+  ],
+  "year": 2021,
+  "date": "2021-11-07",
+  "venue": "EMNLP 2021",
+  "paperUrl": "https://aclanthology.org/2021.emnlp-main.72/"
+}

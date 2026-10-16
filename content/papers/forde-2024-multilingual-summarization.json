@@ -1,0 +1,20 @@
+{
+  "id": "forde-2024-multilingual-summarization",
+  "title": "Re-Evaluating Evaluation for Multilingual Summarization",
+  "authors": [
+    "Jessica Zosa Forde",
+    "Ruochen Zhang",
+    "Lintang Sutawika",
+    "Alham Fikri Aji",
+    "Samuel Cahyawijaya",
+    "Genta Indra Winata",
+    "Minghao Wu",
+    "Carsten Eickhoff",
+    "Stella Biderman",
+    "Ellie Pavlick"
+  ],
+  "year": 2024,
+  "date": "2024-11-12",
+  "venue": "EMNLP 2024",
+  "paperUrl": "https://aclanthology.org/2024.emnlp-main.1085/"
+}

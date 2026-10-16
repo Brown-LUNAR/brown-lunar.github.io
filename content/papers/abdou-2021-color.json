@@ -1,0 +1,16 @@
+{
+  "id": "abdou-2021-color",
+  "title": "Can Language Models Encode Perceptual Structure Without Grounding? A Case Study in Color",
+  "authors": [
+    "Mostafa Abdou",
+    "Artur Kulmizev",
+    "Daniel Hershcovich",
+    "Stella Frank",
+    "Ellie Pavlick",
+    "Anders Søgaard"
+  ],
+  "year": 2021,
+  "date": "2021-11-10",
+  "venue": "CoNLL 2021",
+  "paperUrl": "https://aclanthology.org/2021.conll-1.9/"
+}

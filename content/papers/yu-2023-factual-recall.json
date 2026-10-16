@@ -1,0 +1,13 @@
+{
+  "id": "yu-2023-factual-recall",
+  "title": "Characterizing Mechanisms for Factual Recall in Language Models",
+  "authors": [
+    "Qinan Yu",
+    "Jack Merullo",
+    "Ellie Pavlick"
+  ],
+  "year": 2023,
+  "date": "2023-12-06",
+  "venue": "EMNLP 2023",
+  "paperUrl": "https://arxiv.org/pdf/2310.15910.pdf"
+}

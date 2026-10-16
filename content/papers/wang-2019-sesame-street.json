@@ -1,0 +1,26 @@
+{
+  "id": "wang-2019-sesame-street",
+  "title": "Can You Tell Me How to Get Past Sesame Street? Sentence-Level Pretraining Beyond Language Modeling",
+  "authors": [
+    "Alex Wang",
+    "Jan Hula",
+    "Patrick Xia",
+    "Raghavendra Pappagari",
+    "R. Thomas McCoy",
+    "Roma Patel",
+    "Najoung Kim",
+    "Ian Tenney",
+    "Yinghui Huang",
+    "Katherin Yu",
+    "Shuning Jin",
+    "Berlin Chen",
+    "Benjamin Van Durme",
+    "Edouard Grave",
+    "Ellie Pavlick",
+    "Samuel R. Bowman"
+  ],
+  "year": 2019,
+  "date": "2019-07-28",
+  "venue": "ACL 2019",
+  "paperUrl": "https://aclanthology.org/P19-1439/"
+}

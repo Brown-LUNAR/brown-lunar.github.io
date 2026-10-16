@@ -1,0 +1,16 @@
+{
+  "id": "oh-2019-state-abstractions",
+  "title": "Planning with State Abstractions for Non-Markovian Task Specifications",
+  "authors": [
+    "Yoonseon Oh",
+    "Roma Patel",
+    "Thao Nguyen",
+    "Baichuan Huang",
+    "Ellie Pavlick",
+    "Stefanie Tellex"
+  ],
+  "year": 2019,
+  "date": "2019-06-22",
+  "venue": "RSS 2019",
+  "paperUrl": "https://www.roboticsproceedings.org/rss15/p59.pdf"
+}
